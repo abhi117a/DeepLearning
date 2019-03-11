@@ -1,0 +1,16 @@
+Loss Function:
+Regression
+MSE - Mean Squared Error
+Gradient Descent
+
+Classification
+Softmax -
+        We'll discuss one of the most important-for-us methods, logistic regression. And to talk about it, we should first find a way to convert our scores from linear classifiers, to probabilities, to distribution. So, we have some vector of scores z, which has components w transposed by x, though these are scores for each of our classes. Dot products can have any sign and have any magnitude. So we cannot interpret them as probability distributions, and we should somehow change it. We'll do it in two steps. At first step, we take first component of our vector and take e to the degree of this component. We do the same to the second component, et cetera, to the last component. So, after this step, we have a vector e to the degree of z that has only positive coordinates. So now we need only to normalize these components to get a distribution. And to do it, we just sum all the components of this e-to-z vector and divide each component by the sum. And after that, we get a vector sigma of z that is normalized and has only non-negative components. So we can interpret it as a probability distribution. This transform is called a softmax function -- a softmax transform.
+
+        1) take exponential of the every value.
+        2) Sum all the values of the exponent
+        3) divide the exponent by the sum from step 2
+
+Sigmoid
+Cross Entropy
+Gradient Descent

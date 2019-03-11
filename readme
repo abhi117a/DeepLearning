@@ -1,1 +1,46 @@
 readme file :)
+
+
+How to install related software packages/libraries
+
+MacOS:
+1) Install Anaconda for Python 3.X
+2) Install the following packages
+
+    pip
+    numpy
+    jupyter
+    matplotlib
+    sklearn
+    scipy
+    pandas
+    PIL
+    seaborn
+    h5py
+    tensorflow
+    keras
+
+Most of the above mentioned packages already present with Anaconda out of the box
+distribution.
+
+
+Windows 10:
+
+1) Install Anaconda for Python 3.X
+2) Install `git` package for Anaconda
+3) Open Anaconda Prompt and install
+    pip
+    numpy
+    jupyter
+    matplotlib
+    sklearn
+    scipy
+    pandas
+    PIL
+    seaborn
+    h5py
+    tensorflow
+    keras
+
+Most of the above mentioned packages already present with Anaconda out of the box
+distribution.
