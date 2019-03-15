@@ -14,3 +14,42 @@ Softmax -
 Sigmoid
 Cross Entropy
 Gradient Descent
+
+
+Regularization:
+L1 and L2 penalty
+
+it peanlizes the model if we use complex models
+
+
+
+////
+Supervised Neural Nets
+ANN - Used for Classification and Regression
+CNN - Computer Vision
+RNN - Time series analysis
+
+Unsupervised Neural Nets
+Self Organizing Maps - Used for feature detections
+Deep Boltzman machines - Recommendation Algo
+Auto Encoders - Recommendation Algo
+
+
+RNNs
+Vanishing Gradient Problem:
+If the starting weights are low (Wrec), during back propogation they start
+converging to 0 which forces the network layers which are near the begining
+being untrained due to reducing gradient, which in return gives untrained values during forward
+propagation of the network. Starts a domino effect.
+  Solution:
+          Weight Initialization
+          Echo State Network
+          Long Short Term Memory Networks (LSTM)
+
+But if Wrec is very large we start getting Exploding gradient problem
+    Solution: Truncated Backpropagation
+              Penalties
+              Gradient clipping (setting threshold of gradient)
+
+
+LSTM - Long Short Term Memory
